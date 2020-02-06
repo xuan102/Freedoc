@@ -1,7 +1,6 @@
-#  ⚕️ FreeDoc 
+#  ⚕️ FreeDoc 😷
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Votre appli de prise de RDV en ligne
 
 ## :wrench: Installation 
 
