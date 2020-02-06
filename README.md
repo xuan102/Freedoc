@@ -1,24 +1,46 @@
-# README
+#  ⚕️ FreeDoc 
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
-Things you may want to cover:
+## :wrench: Installation 
 
-* Ruby version
+### Configuration
+Entrez les commandes suivantes dans votre terminal préféré :
 
-* System dependencies
+`git clone git@github.com:luca-montaigut/Freedoc.git`
 
-* Configuration
+`cd FreeDoc`
 
-* Database creation
+`bundle install`
 
-* Database initialization
+### Database creation
 
-* How to run the test suite
+`rails db:migrate`
 
-* Services (job queues, cache servers, search engines, etc.)
+### Database initialisation
 
-* Deployment instructions
+`rails db:seed`
 
-* ...
+`rails c`
+
+
+## 🔥 Démarrage
+
+Une fois dans la console Rails (`rails c`) vous pourrez explorer les tables de données suivantes grace à la commande tp de la gem table_print (installée grâce au Gemfile présent lors du `bundle install`) :
+
+`tp Doctor.all`
+
+`tp Patient.all`
+
+`tp Appointment.all`
+
+`tp City.all`
+
+`tp JoinTableDoctorSpecialty.all`
+
+`tp Specialty.all`
+
+
+## 🐰 Auteur
+Luca Montaigut : https://github.com/luca-montaigut
